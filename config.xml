@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gamemafia.simplegame" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SimpleGame</name>
+    <description>
+        A simple Android game created with HTML5 and JavaScript
+    </description>
+    <author email="dev@gamemafia.com" href="http://gamemafia.com">
+        GameMafia Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/ldpi-icon.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi-icon.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi-icon.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi-icon.png" />
+    </platform>
+    
+    <engine name="android" spec="^10.1.1" />
+</widget>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="A simple space defender game for Android">
+    <title>Space Defender - Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="score">Score: 0</div>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div id="gameOver">
+            <h2>Game Over!</h2>
+            <p>Your score: <span id="finalScore">0</span></p>
+            <button id="restartBtn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

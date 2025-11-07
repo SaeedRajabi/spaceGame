@@ -1,0 +1,30 @@
+{
+  "name": "gamemafia-simplegame",
+  "version": "1.0.0",
+  "description": "A simple Android game created with HTML5 and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "cordova run android",
+    "build": "cordova build android",
+    "prepare": "cordova prepare"
+  },
+  "keywords": [
+    "game",
+    "android",
+    "html5",
+    "javascript"
+  ],
+  "author": "GameMafia Team",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-android": "^10.1.1"
+  },
+  "dependencies": {
+    "canvas": "^2.9.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
